@@ -1,0 +1,113 @@
+/*==================== GOOGLE FONTS ====================*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-font: "Josefin Sans", sans-serif;
+  --primary-color: #0fbeaa;
+  --off-white: #f3f4f6;
+  --dark-color: #1f2937;
+  --text-color: #f9fafb;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background: var(--dark-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* main */
+
+main {
+  text-align: center;
+  margin: 3rem;
+}
+
+h2 {
+  font-size: xx-large;
+  margin: 2rem;
+}
+
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#show-btn {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+#show-btn:hover {
+  background: var(--dark-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+#result {
+  font-size: x-large;
+  margin: 2rem 0;
+}
+.b_icon {
+  height: 8rem;
+  width: 8rem;
+}
+/* footer */
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+li {
+  display: inline;
+  color: var(--primary-color);
+}
